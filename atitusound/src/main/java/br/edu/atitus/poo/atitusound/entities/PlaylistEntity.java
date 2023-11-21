@@ -33,7 +33,7 @@ public class PlaylistEntity extends GenericEntity{
 		return publicShare;
 	}
 
-	public void setPublicshare(boolean public_share) {
+	public void setPublicshare(boolean publicShare) {
 		this.publicShare = public_share;
 	}
 
