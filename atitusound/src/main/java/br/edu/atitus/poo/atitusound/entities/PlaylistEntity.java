@@ -26,7 +26,7 @@ public class PlaylistEntity extends GenericEntity{
 	private List<MusicEntity> musics;
 	
 	@ManyToOne(fetch = FetchType.EAGER)
-	@JoinTable(name = "user_uuid", nullable = false)
+	@JoinColumn(name = "user_uuid", nullable = false)
 	private UserEntity user;
 
 	public boolean getPublicshare() {
