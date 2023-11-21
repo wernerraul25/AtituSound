@@ -34,7 +34,7 @@ public class PlaylistEntity extends GenericEntity{
 	}
 
 	public void setPublicshare(boolean publicShare) {
-		this.publicShare = public_share;
+		this.publicShare = publicShare;
 	}
 
 	public List<MusicEntity> getMusics() {

@@ -26,7 +26,7 @@ public class PlaylistController extends GenericController<PlaylistEntity, Playli
 	protected PlaylistEntity convertDTO2Entity(PlaylistDTO dto) {
 		PlaylistEntity playlist = new PlaylistEntity();
 		playlist.setName(dto.getName());
-		playlist.setPublic_share(dto.getPublic_share());
+		playlist.setPublicshare(dto.getPublic_share());
 		return playlist;
 	}
 
